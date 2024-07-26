@@ -1,1 +1,61 @@
-Hello, Git!
+Hello, Git!. Documenting Steps and Commands
+
+Create a README.md File:
+
+You can document your process and commands in the README.md file of your repository. This file is usually located in the root of your repository and is a great place to explain your project, setup, and any relevant details.
+markdown
+Copy code
+# PLPBasicGitAssignment
+
+## Setup and Commands
+
+### Local Folder Setup
+1. Created a local folder: `PLPBasicGitAssignment`.
+2. Initialized a Git repository:
+   ```sh
+   git init
+Creating and Committing Changes
+Created hello.txt file with message: "Hello, Git!".
+Added file to staging area:
+sh
+Copy code
+git add hello.txt
+Committed changes:
+sh
+Copy code
+git commit -m "Add hello.txt with a greeting"
+Connecting to GitHub
+Added remote repository:
+sh
+Copy code
+git remote add origin https://github.com/Sharonmbabu/PLPBasicGitAssignment.git
+Pushed changes to GitHub:
+sh
+Copy code
+git push -u origin main
+Verification
+Verified that hello.txt and commit message are visible on GitHub repository.
+Copy code
+Create a Separate Text File:
+
+You can also create a separate text file, e.g., STEPS.txt, to document the steps and commands used. This can be included in your repository or submitted as required.
+2. Troubleshooting Issues
+
+Refer to GitHub Documentation:
+
+GitHub’s documentation is a valuable resource for troubleshooting. You can find solutions for common issues and detailed explanations here: GitHub Docs
+Common Git Issues:
+
+Conflicts During Merge: Use git status to see which files need attention and manually resolve conflicts in the files.
+Authentication Issues: Make sure you’re logged in and have the correct permissions. Use personal access tokens if needed.
+Seek Assistance:
+
+Peers: Collaborate with classmates or colleagues who may have faced similar issues.
+Instructor: Don’t hesitate to ask for help if you’re stuck. Provide details of the issue and any error messages you’re seeing.
+3. Best Practices
+
+Frequent Commits: Make small, frequent commits to keep track of changes and avoid large, complex commits.
+Clear Commit Messages: Write clear and descriptive commit messages to make it easier to understand the changes made.
+Regular Pulls: Regularly pull from the remote repository to stay updated and minimize merge 
+
+
