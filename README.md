@@ -1,2 +1,2 @@
 # PLPBasicGitAssignment
-for assingment purposr
+for assingment purpose
